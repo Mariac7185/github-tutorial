@@ -1,18 +1,19 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+##_by Maria Cortez_
 
 ---
-## Git vs. GitHub
+## Git   vs. GitHub
+ 
+* ` git` is when 
 
 
+ ---
 
----
 ## Initial Setup
-
-
-
 ---
+
+
 ## Repository Setup
 
 
