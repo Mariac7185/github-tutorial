@@ -55,7 +55,11 @@ _SSH: Secure Shell_
 ## Repository Setup
 
  ###** Steps for creating a new Repository **
-
-
+1. On your right hand corner on your Github page there will be a **+** click on it, and then click New Repository.
+2. Name your Repository Name _a great repository would be short and easy to remember_ 
+ * For example, "first-repository"
+3. You can also add a description in the description box but that is **optional**.
+4. Now Click **"Create Repository"**
+### Good Job You have successfully made a Repository!
 ---
 ## Workflow & Commands
