@@ -40,7 +40,11 @@
  ``` 
      $ git config --config --global user.email "Your EMAIL ADRESS"
 ```
-### The next steps would be confirming with Github if you would be using **HTTPS** or **SSH**
+#### The next steps would be confirming with Github if you would be using **HTTPS** or **SSH**
+HTTPS: Hypertext Transfer Protocol Secure
+SSH: Secure Shell 
+    * Provides a secure network in which requires a long password
+ 
 ---
 
 
