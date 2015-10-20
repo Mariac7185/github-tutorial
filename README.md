@@ -28,6 +28,19 @@
  ---
 
 ## Initial Setup
+
+### Setting up Git
+ 1. Open up [Git hub](www.github.com)
+ 2. Under your command line Tell Git your **name** so that your commits will be label correctly. Make sure to type everything after `$`
+   ```
+    $ git config --global user.name "YOUR NAME"
+```
+ 3. Make sure that you also let Git know your personal _Email Adress_ that will also be part of the Git commits.  Most importantly make sure that you use the same email that you use in the email settings.Your command should look something like this: 
+
+ ``` 
+     $ git config --config --global user.email "Your EMAIL ADRESS"
+```
+### The next steps would be confirming with Github if you would be using **HTTPS** or **SSH**
 ---
 
 
