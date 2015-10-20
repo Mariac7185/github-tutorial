@@ -5,7 +5,7 @@
 ---
 # Git   vs. GitHub
  
- ## Git    
+##Git    
 * Is the version Control which keeps "snapshot" of the code
 * Runs in the command line  
 * Basic Workflow 
