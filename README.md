@@ -32,14 +32,17 @@
 ### Setting up Git
  1. Open up [Git hub](http://www.github.com)
  2. Under your command line Tell Git your **name** so that your commits will be label correctly. Make sure to type everything after `$`
+  
    ```
     $ git config --global user.name "YOUR NAME"
 ```
+
  3. Make sure that you also let Git know your personal _Email Adress_ that will also be part of the Git commits.  Most importantly make sure that you use the same email that you use in the email settings.Your command should look something like this: 
 
  ``` 
      $ git config --config --global user.email "Your EMAIL ADRESS"
 ```
+
 #### The next steps would be confirming with Github if you would be using **HTTPS** or **SSH**
 
 _HTTPS: Hypertext Transfer Protocol Secure_
@@ -55,11 +58,13 @@ _SSH: Secure Shell_
 ## Repository Setup
 
  ###** Steps for creating a new Repository **
-1. On your right hand corner on your Github page there will be a **+** click on it, and then click New Repository.
-2. Name your Repository Name _a great repository would be short and easy to remember_ 
- * For example, "first-repository"
-3. You can also add a description in the description box but that is **optional**.
-4. Now Click **"Create Repository"**
+1. On your right hand corner on your Github page there will be a **+** click on it, and then click New Repository.  
+2. Name your Repository Name _a great repository would be short and easy to remember_   
+ * For example, "first-repository"  
+3. You can also add a description in the description box but that is **optional**.  
+4. Now Click **"Create Repository"**  
+
 ### Good Job You have successfully made a Repository!
 ---
+
 ## Workflow & Commands
