@@ -30,7 +30,7 @@
 ## Initial Setup
 
 ### Setting up Git
- 1. Open up [Git hub](www.github.com)
+ 1. Open up [Git hub](http://www.github.com)
  2. Under your command line Tell Git your **name** so that your commits will be label correctly. Make sure to type everything after `$`
    ```
     $ git config --global user.name "YOUR NAME"
@@ -41,15 +41,20 @@
      $ git config --config --global user.email "Your EMAIL ADRESS"
 ```
 #### The next steps would be confirming with Github if you would be using **HTTPS** or **SSH**
-HTTPS: Hypertext Transfer Protocol Secure
-SSH: Secure Shell 
-    * Provides a secure network in which requires a long password
+
+_HTTPS: Hypertext Transfer Protocol Secure_
+
+* Would require to ype youyr email and your password everytime you log on to github. 
+
+_SSH: Secure Shell_
+
+  * Provides a secure network in which requires a long password
  
 ---
 
-
 ## Repository Setup
 
+ ###** Steps for creating a new Repository **
 
 
 ---
