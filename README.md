@@ -68,6 +68,14 @@ _SSH: Secure Shell_
 
 ### ** Steps for creating a Local Repository **
 
+1. In your cloud9 or any where were your linking your Github with the SSH key
+2. You would have to head to Github and on your top-right press on the icon head to settings
+3. On the left sidebar click on the SSH KEY  
+4. Name Your Tittle based on where you would like github to connect
+ * **Tittle**: Cloud9 
+5. Now head to your Cloud 9 tab 
+6. click on the top-right where your username is located 
+7. Click on Dashboard
 
 
 
