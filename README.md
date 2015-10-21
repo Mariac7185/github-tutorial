@@ -66,7 +66,7 @@ _SSH: Secure Shell_
 
 ### Good Job You have successfully made a Repository for your Remote!
 
-### ** Steps for creating a Local Repository **
+### **Steps for creating a Local Repository**
 
 1. In your cloud9 or any where were your linking your Github with the SSH key
 2. You would have to head to Github and on your top-right press on the icon head to settings
