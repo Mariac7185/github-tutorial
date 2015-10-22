@@ -100,7 +100,7 @@ _SSH: Secure Shell_
 ``` git push ```  is when you send a confirm change to the remote that you are connected to in this case it will be Github.  
 
  * If you would like to change something into your local repo  you would want to push the changes so that others would view them.  
- * 
+ 
 ```git pull  ```  is when you request changes into someone elses repository and you will propose a change to the person whom you making changes in their repository.  
 
 
