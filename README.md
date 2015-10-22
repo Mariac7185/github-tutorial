@@ -87,9 +87,12 @@ You have officially Initialize your working repository
 
 ####Making Chnages 
 * Now you are wondering how to update your files 
- * The fastest way to do so is by  
+ * The fastest way to do so is by ``` $ git add  file1 files 2 file3``` 
 
+  _Note: Make sure to do `git status` so that you cna get a brief summary of what you haven't added to you Repository 
   
+  Your able to commit now!
+  Do `git commit -m "message" ` in order to help you in the future see your changes that you have made.
 
 
 
