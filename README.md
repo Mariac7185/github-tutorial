@@ -80,7 +80,8 @@ _SSH: Secure Shell_
 9. Go to your IDE and type in ssh -T git @github.com and type in yes to confirm 
  * _IDE:Integrated Development Enviornment_
 10. Remember to always be in your workspace so it will be ``` username@github-learning:~/workspace ```
-11. Type in 
+11. Type in ```git init ``` to start controlling in your directory
+12. 
   
 
 
@@ -91,7 +92,7 @@ _SSH: Secure Shell_
 ## Workflow & Commands
 ```git init``` is when you Initialize the local directory as a Git repository  
 
-```git add ``` adds the files in the scurrent directory  
+```git add ``` adds the files in the current directory  tracking new files and start chaning them 
 
 ``` git commit -m " text"``` is a change to a file that you save in Git in which keeps record of what changes are being made and by who depending if your pushing and pulling.  
 
@@ -102,6 +103,8 @@ _SSH: Secure Shell_
  * If you would like to change something into your local repo  you would want to push the changes so that others would view them.  
  
 ```git pull  ```  is when you request changes into someone elses repository and you will propose a change to the person whom you making changes in their repository.  
+``` Git status ``` will see what you have modify and then you will be able to ``` git commit ``` in which will record your snapchot into your histroy when yiu view it in Github  
+
 
 
 ___
