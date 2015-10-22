@@ -92,7 +92,8 @@ You have officially Initialize your working repository
   _Note: Make sure to do `git status` so that you cna get a brief summary of what you haven't added to you Repository 
   
   Your able to commit now!
-  Do `git commit -m "message" ` in order to help you in the future see your changes that you have made.
+  Do `git commit -m "message" ` in order to help you in the future see your changes that you have made.  
+  
 
 
 
@@ -114,7 +115,6 @@ You have officially Initialize your working repository
  
 ```git pull  ```  is when you request changes into someone elses repository and you will propose a change to the person whom you making changes in their repository.  
 ``` Git status ``` will see what you have modify and then you will be able to ``` git commit ``` in which will record your snapchot into your histroy when yiu view it in Github  
-
-##Fork and Clone and Pull 
+___ 
 
 ___
