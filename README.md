@@ -81,7 +81,14 @@ _SSH: Secure Shell_
  * _IDE:Integrated Development Enviornment_
 10. Remember to always be in your workspace so it will be ``` username@github-learning:~/workspace ```
 11. Type in ```git init ``` to start controlling in your directory
-12. 
+12. Then you would git config  --global user.name "Your Name"
+13. After that you would type in git config --global user.email yourusername@yourdomain.example.com
+You have officially Initialize your working repository
+
+####Making Chnages 
+* Now you are wondering how to update your files 
+ * The fastest way to do so is by  
+
   
 
 
