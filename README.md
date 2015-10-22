@@ -78,7 +78,8 @@ _SSH: Secure Shell_
 7. Click on SSH Keys
 8. Now you paste the SSH Keys into cloud9 
 9. Go to your IDE and type in ssh -T git @github.com and type in yes to confirm 
-10. Remember to always be in your workspace  so it will be `username@github-learning:~/workspace'
+ * _IDE:Integrated Development Enviornment_
+10. Remember to always be in your workspace so it will be ``` username@github-learning:~/workspace ```
 11. 
   
 
