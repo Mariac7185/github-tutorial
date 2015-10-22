@@ -105,6 +105,6 @@ _SSH: Secure Shell_
 ```git pull  ```  is when you request changes into someone elses repository and you will propose a change to the person whom you making changes in their repository.  
 ``` Git status ``` will see what you have modify and then you will be able to ``` git commit ``` in which will record your snapchot into your histroy when yiu view it in Github  
 
-
+##Fork and Clone and Pull 
 
 ___
