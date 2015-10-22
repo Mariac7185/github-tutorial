@@ -15,7 +15,7 @@
     *  We need to create the add command to just choose one 
 
   
-##### Github 
+## Github 
 * Is when you store information up in the cloud 
     * Your computer: Local Machine in this case Cloud9 
 * Runs in the command line
@@ -74,9 +74,13 @@ _SSH: Secure Shell_
 4. Name Your Tittle based on where you would like github to connect
  * **Tittle**: Cloud9 
 5. Now head to your Cloud 9 tab 
-6. click on the top-right where your profile icon is located 
-7. Click on Dashboard
-
+6. click on the top-right where your settings icon is located 
+7. Click on SSH Keys
+8. Now you paste the SSH Keys into cloud9 
+9. Go to your IDE and type in ssh -T git @github.com and type in yes to confirm 
+10. Remember to always be in your workspace  so it will be `username@github-learning:~/workspace'
+11. 
+  
 
 
 
