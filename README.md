@@ -89,12 +89,19 @@ _SSH: Secure Shell_
 ---
 
 ## Workflow & Commands
-```git init``` is when you Initialize the local directory as a Git repository
-```git add ``` adds the files in the scurrent directory
-``` git commit -m " text"``` is a change to a file that you save in Git in which keeps record of what changes are being made and by who depending if your pushing and pulling
-```git clone``` is a copy of the repository that is on your computer, when cloning you are able to make changes of that file and use git to keep track of what you are doing.
-``` git push ```  is when you send a confirm change to the remote that you are connected to in this case it will be Github.
- * If you would like to change something into your local repo  you would want to push the changes so that others would view them.
-```git pull  ```  is when you request changes into someone elses repository and you will propose a change to the person whom you making changes in their repository
+```git init``` is when you Initialize the local directory as a Git repository  
+
+```git add ``` adds the files in the scurrent directory  
+
+``` git commit -m " text"``` is a change to a file that you save in Git in which keeps record of what changes are being made and by who depending if your pushing and pulling.  
+
+```git clone``` is a copy of the repository that is on your computer, when cloning you are able to make changes of that file and use git to keep track of what you are doing.  
+
+``` git push ```  is when you send a confirm change to the remote that you are connected to in this case it will be Github.  
+
+ * If you would like to change something into your local repo  you would want to push the changes so that others would view them.  
+ * 
+```git pull  ```  is when you request changes into someone elses repository and you will propose a change to the person whom you making changes in their repository.  
+
 
 ___
