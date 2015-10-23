@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>GitHub-tutorial by Mariac7185</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/Mariac7185/github-tutorial">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>GitHub-tutorial</h1>
+            <h2>It&#39;s just the beGITing!</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/Mariac7185/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Mariac7185/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<h2>
+<a id="by-maria-cortez" class="anchor" href="#by-maria-cortez" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>by Maria Cortez</em>
+</h2>
+
+<hr>
+
+<h1>
+<a id="git---vs-github" class="anchor" href="#git---vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git   vs. GitHub</h1>
+
+<h2>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git</h2>
+
+<ul>
+<li>Is the version Control which keeps "snapshot" of the code</li>
+<li>Runs in the command line<br>
+</li>
+<li>Basic Workflow 
+
+<ul>
+<li>Once we initialize git for version control in which we call it a repository</li>
+</ul>
+</li>
+<li> Edit files </li>
+<li> Add files (to the stage)
+
+<ul>
+<li> We need to create the add command to just choose one </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="github" class="anchor" href="#github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Github</h2>
+
+<ul>
+<li>Is when you store information up in the cloud 
+
+<ul>
+<li>Your computer: Local Machine in this case Cloud9 </li>
+</ul>
+</li>
+<li>Runs in the command line
+*to interact with the repository and to visually see the changes bewteen the commits</li>
+<li>Basic workflow</li>
+<li>Visually tracks changes </li>
+<li>Easily collaborates on files </li>
+<li>
+<p>Requires Git </p>
+
+<hr>
+</li>
+</ul>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h3>
+<a id="setting-up-git" class="anchor" href="#setting-up-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setting up Git</h3>
+
+<ol>
+<li>Open up <a href="http://www.github.com">Git hub</a>
+</li>
+<li>
+<p>Under your command line Tell Git your <strong>name</strong> so that your commits will be label correctly. Make sure to type everything after <code>$</code></p>
+
+<pre><code>$ git config --global user.name "YOUR NAME"
+</code></pre>
+</li>
+<li>
+<p>Make sure that you also let Git know your personal <em>Email Adress</em> that will also be part of the Git commits.  Most importantly make sure that you use the same email that you use in the email settings.Your command should look something like this: </p>
+
+<pre><code>   $ git config --config --global user.email "Your EMAIL ADRESS"
+</code></pre>
+</li>
+</ol>
+
+<h4>
+<a id="the-next-steps-would-be-confirming-with-github-if-you-would-be-using-https-or-ssh" class="anchor" href="#the-next-steps-would-be-confirming-with-github-if-you-would-be-using-https-or-ssh" aria-hidden="true"><span class="octicon octicon-link"></span></a>The next steps would be confirming with Github if you would be using <strong>HTTPS</strong> or <strong>SSH</strong>
+</h4>
+
+<p><em>HTTPS: Hypertext Transfer Protocol Secure</em></p>
+
+<ul>
+<li>Would require to ype youyr email and your password everytime you log on to github. </li>
+</ul>
+
+<p><em>SSH: Secure Shell</em></p>
+
+<ul>
+<li>Provides a secure network in which requires a long password</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<h3>
+<a id="steps-for-creating-a-new-repository" class="anchor" href="#steps-for-creating-a-new-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Steps for creating a new Repository</h3>
+
+<ol>
+<li>On your right hand corner on your Github page there will be a <strong>+</strong> click on it, and then click New Repository.<br>
+</li>
+<li>Name your Repository Name <em>a great repository would be short and easy to remember</em><br>
+
+<ul>
+<li>For example, "first-repository"<br>
+</li>
+</ul>
+</li>
+<li>You can also add a description in the description box but that is <strong>optional</strong>.<br>
+</li>
+<li>Now Click <strong>"Create Repository"</strong><br>
+</li>
+</ol>
+
+<h3>
+<a id="good-job-you-have-successfully-made-a-repository-for-your-remote" class="anchor" href="#good-job-you-have-successfully-made-a-repository-for-your-remote" aria-hidden="true"><span class="octicon octicon-link"></span></a>Good Job You have successfully made a Repository for your Remote!</h3>
+
+<h3>
+<a id="steps-for-creating-a-local-repository" class="anchor" href="#steps-for-creating-a-local-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Steps for creating a Local Repository</h3>
+
+<ol>
+<li>In your cloud9 or any where were your linking your Github with the SSH key</li>
+<li>You would have to head to Github and on your top-right press on the icon head to settings</li>
+<li>On the left sidebar click on the SSH KEY<br>
+</li>
+<li>Name Your Tittle based on where you would like github to connect
+
+<ul>
+<li>
+<strong>Tittle</strong>: Cloud9 </li>
+</ul>
+</li>
+<li>Now head to your Cloud 9 tab </li>
+<li>click on the top-right where your settings icon is located </li>
+<li>Click on SSH Keys</li>
+<li>Now you paste the SSH Keys into cloud9 </li>
+<li>Go to your IDE and type in ssh -T git @github.com and type in yes to confirm 
+
+<ul>
+<li><em>IDE:Integrated Development Enviornment</em></li>
+</ul>
+</li>
+<li>Remember to always be in your workspace so it will be <code>username@github-learning:~/workspace</code>
+</li>
+<li>Type in <code>git init</code> to start controlling in your directory</li>
+<li>Then you would git config  --global user.name "Your Name"</li>
+<li>After that you would type in git config --global user.email <a href="mailto:yourusername@yourdomain.example.com">yourusername@yourdomain.example.com</a>
+You have officially Initialize your working repository</li>
+</ol>
+
+<h4>
+<a id="making-chnages" class="anchor" href="#making-chnages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Making Chnages</h4>
+
+<ul>
+<li>
+<p>Now you are wondering how to update your files </p>
+
+<ul>
+<li>The fastest way to do so is by <code>$ git add  file1 files 2 file3</code> </li>
+</ul>
+
+<p>_Note: Make sure to do <code>git status</code> so that you cna get a brief summary of what you haven't added to you Repository </p>
+
+<p>Your able to commit now!
+Do <code>git commit -m "message"</code> in order to help you in the future see your changes that you have made.  </p>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p><code>git init</code> is when you Initialize the local directory as a Git repository  </p>
+
+<p><code>git add</code> adds the files in the current directory  tracking new files and start chaning them </p>
+
+<p><code>git commit -m " text"</code> is a change to a file that you save in Git in which keeps record of what changes are being made and by who depending if your pushing and pulling.  </p>
+
+<p><code>git clone</code> is a copy of the repository that is on your computer, when cloning you are able to make changes of that file and use git to keep track of what you are doing.  </p>
+
+<p><code>git push</code>  is when you send a confirm change to the remote that you are connected to in this case it will be Github.  </p>
+
+<ul>
+<li>If you would like to change something into your local repo  you would want to push the changes so that others would view them.<br>
+</li>
+</ul>
+
+<p><code>git pull</code>  is when you request changes into someone elses repository and you will propose a change to the person whom you making changes in their repository.<br>
+<code>Git status</code> will see what you have modify and then you will be able to <code>git commit</code> in which will record your snapchot into your histroy when yiu view it in Github  </p>
+
+<hr>
+
+<hr>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/Mariac7185">Mariac7185</a> can be found on <a href="https://github.com/Mariac7185/github-tutorial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
