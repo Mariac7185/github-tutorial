@@ -12,7 +12,7 @@
     * Once we initialize git for version control in which we call it a repository
 *  Edit files 
 *  Add files (to the stage)
-    *  We need to create the add command to just choose one 
+    *  We need to create the add command 
 
   
 ## Github 
@@ -31,7 +31,8 @@
 
 ### Setting up Git
  1. Open up [Git hub](http://www.github.com)
- 2. Under your command line Tell Git your **name** so that your commits will be label correctly. Make sure to type everything after `$`
+ 2. Sign Up for a git hub account
+ 3. Under your command line Tell Git your **name** so that your commits will be label correctly. Make sure to type everything after `$`
   
    ```
     $ git config --global user.name "YOUR NAME"
@@ -85,7 +86,7 @@ _SSH: Secure Shell_
 13. After that you would type in git config --global user.email yourusername@yourdomain.example.com
 You have officially Initialize your working repository
 
-####Making Chnages 
+####Making Changes
 * Now you are wondering how to update your files 
  * The fastest way to do so is by ``` $ git add  file1 files 2 file3``` 
 
